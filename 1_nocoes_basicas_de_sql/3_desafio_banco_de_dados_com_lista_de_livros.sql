@@ -5,6 +5,7 @@ CREATE TABLE livros (id INTEGER PRIMARY KEY, name TEXT, rating REAL);
 
 -- Etapa 2
 -- Agora adicione à tabela três dos seus livros favoritos.
+
 INSERT INTO
     livros
 VALUES

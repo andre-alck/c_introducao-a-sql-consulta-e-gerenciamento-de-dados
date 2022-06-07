@@ -1,6 +1,7 @@
 -- Desafio: Banco de dados de sucessos de bilheteria
 -- Selecione tudo
 -- Este banco de dados contém uma lista incompleta de sucessos de bilheteria e seu ano de lançamento. Nesse desafio, você vai obter os resultados do banco de dados de formas diferentes! Nessa primeira etapa, selecione todos os filmes (movies).
+
 CREATE TABLE movies (
     id INTEGER PRIMARY KEY,
     name TEXT,
@@ -44,6 +45,7 @@ FROM
 
 -- Filtrar filmes recentes
 -- Agora faça uma segunda pesquisa para obter os filmes lançados no ano 2000 ou depois, não antes (consulte release_year). Ordene os resultados para que os filmes mais antigos sejam listados primeiro. Você deverá ter 2 comandos SELECT depois deste passo.
+
 SELECT
     *
 FROM
